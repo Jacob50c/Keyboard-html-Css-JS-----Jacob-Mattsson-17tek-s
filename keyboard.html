@@ -1,0 +1,379 @@
+<!doctype html>
+<html>
+  <head>
+    <title> keyboard </title>
+
+    <style>
+      body{background: rgba(0,0,0, 1);}
+      .line{width: 77%; height: 10vh; background:; margin-bottom:2px; margin-left:230px;}
+      .three{width: 69%} .four{width: 71%}
+      .key{width:70px; height:78%; background-color:#484d54; color:white; text-align: left; font-size: 20px; line-height: 40px;
+       border-radius: 8px; border-right:8px solid #282c31; border-bottom:8px solid #282c31; box-shadow:8px 8px 8px #740000; z-index:1000; ;cursor: pointer; padding-left: 8px; float:left; margin-left: 10px;}
+      .function{height: 50%; width: 60px;}
+      .space1{height: 70%; width: 75px; margin-right: 20px; }
+      .int{float: right; margin-right: 7px;}
+      .backspace{width: 170px; float: right; margin-right: 7px;}
+      .tab{width: 120px;}
+      .caps{width: 160px;}
+      .ent{width: 80px; height: 190px; background:; float:right; margin-right:230px;}
+      .dw{height: 170px!important; position: absolute;}
+      .ente{width: 50px; height: 10vh; background:; float:right;}
+      .up{width: 50px; height: 78%; border-right:none; border-top-right-radius:0px!important; border-bottom-right-radius:0px!important; ;box-shadow:0px 10px 10px #740000;}
+      .arrow{float:right; margin-right: 6px}
+      .R{margin-right: 7px;}
+      .page{height: 60%; line-height: 28px!important;}
+      .space{width: 480px;}
+      .ctrl{width: 110px;}
+      .shift-left{width: 125px;}
+      .shift-righ{width: 210px; float: right; margin-right: 7px;}
+
+      .main{width:100%; height:80vh; margin-bottom:8vh; margin-top:7vh; background:white;}
+
+
+    </style>
+
+  </head>
+
+
+
+
+ <body>
+
+      <div class="line one">
+            <div class="key function space1" id="Escape">
+          Esc
+        </div>
+
+        <div class="key function" id="F1">
+          F1
+        </div>
+        <div class="key function" id="F2">
+          F2
+        </div>
+        <div class="key function" id="F3">
+          F3
+        </div>
+
+        <div class="key function" id="F4">
+          F4
+        </div>
+        <div class="key function" id="F5">
+          F5
+        </div>
+        <div class="key function" id="F6">
+          F6
+        </div>
+          <div class="key function" id="F7">
+          F7
+        </div>
+        <div class="key function" id="F8">
+          F8
+        </div>
+        <div class="key function" id="F9">
+          F9
+        </div>
+        <div class="key function" id="F10">
+          F10
+        </div>
+          <div class="key function" id="F11">
+          F11
+        </div>
+        <div class="key function" id="F12">
+          F12
+        </div>
+        <div class="key function int" id="Delete">
+        Delete
+        </div>
+        <div class="key function int" id="Insert">
+          Insert
+        </div>
+        <div class="key function int" id="">
+           PrtScr
+        </div>
+      </div>
+
+      <div class="line two">
+
+        <div class="key num" id="Backquote">
+          §
+        </div>
+
+        <div class="key num" id="Digit1">
+          1
+        </div>
+        <div class="key num" id="Digit2">
+          2
+        </div>
+        <div class="key num" id="Digit3">
+          3
+        </div>
+        <div class="key num" id="Digit4">
+          4
+        </div>
+        <div class="key num" id="Digit5">
+          5
+        </div>
+        <div class="key num" id="Digit6">
+          6
+        </div>
+        <div class="key num" id="Digit7">
+          7
+        </div>
+        <div class="key num" id="Digit8">
+          8
+        </div>
+        <div class="key num" id="Digit9">
+          9
+        </div>
+        <div class="key num" id="Digit0">
+          0
+        </div>
+        <div class="key num" id="Minus">
+          ?
+        </div>
+        <div class="key num" id="Equal">
+          ´´
+        </div>
+        <div class="key backspace" id="Backspace">
+          Backspace
+        </div>
+      </div>
+
+
+        <div class="ent">
+              <div class="key dw" id="Enter">
+              </div>
+            </div>
+            <div class="ente">
+              <div class="key up" id="Enter">
+                Enter
+              </div>
+            </div>
+
+
+      <div class="line three">
+            <div class="key letter tab"  id="Tab">
+          Tab
+        </div>
+
+        <div class="key letter" id="KeyQ">
+          Q
+        </div>
+          <div class="key letter"  id="KeyW">
+          W
+        </div>
+          <div class="key letter"  id="KeyE">
+          E
+        </div>
+          <div class="key letter"  id="KeyR">
+          R
+        </div>
+          <div class="key letter"  id="KeyT">
+          T
+        </div>
+          <div class="key letter"  id="KeyY">
+          Y
+        </div>
+          <div class="key letter"  id="KeyU">
+          U
+        </div>
+          <div class="key letter"  id="KeyI">
+          I
+        </div>
+          <div class="key letter"  id="KeyO">
+          O
+        </div>
+          <div class="key letter"  id="KeyP">
+          P
+        </div>
+          <div class="key letter"  id="BracketLeft">
+          Å
+        </div>
+          <div class="key letter"  id="BracketRight">
+          ^
+        </div>
+      </div>
+
+      <div class="line four">
+        <div class="key letter caps"  id="CapsLock">
+      Caps Lock
+      </div>
+        <div class="key letter"  id="KeyA">
+          A
+        </div>
+          <div class="key letter"  id="KeyS">
+          S
+        </div>
+          <div class="key letter"  id="KeyD">
+          D
+        </div>
+          <div class="key letter"  id="KeyF">
+          F
+        </div>
+          <div class="key letter"  id="KeyG">
+          G
+        </div>
+          <div class="key letter"  id="KeyH">
+          H
+        </div>
+          <div class="key letter"  id="KeyJ">
+          J
+        </div>
+          <div class="key letter"  id="KeyK">
+          K
+        </div>
+          <div class="key letter"  id="KeyL">
+          L
+        </div>
+          <div class="key letter"  id="Semicolon">
+          Ö
+        </div>
+          <div class="key letter"  id="Quote">
+          Ä
+        </div>
+          <div class="key letter"  id="Backslash">
+          *
+        </div>
+      </div>
+
+      <div class="line five">
+        <div class="key letter shift-left"  id="ShiftLeft">
+        Shift
+        </div>
+        <div class="key letter"  id="IntlBackslash">
+          >
+        </div>
+          <div class="key letter"  id="KeyZ">
+          Z
+        </div>
+          <div class="key letter"  id="KeyX">
+          X
+        </div>
+          <div class="key letter"  id="KeyC">
+          C
+        </div>
+         <div class="key letter"  id="KeyV">
+          V
+        </div>
+        <div class="key letter"  id="KeyB">
+         B
+       </div>
+        <div class="key letter"  id="KeyN">
+        N
+        </div>
+          <div class="key letter"  id="KeyM">
+          M
+        </div>
+          <div class="key letter"  id="Comma">
+          ;
+        </div>
+          <div class="key letter"  id="Period">
+          :
+        </div>
+          <div class="key letter"  id="Slash">
+          --
+        </div>
+
+          <div class="key letter shift-righ"  id="ShiftRight">
+          Shift
+        </div>
+          </div>
+
+      <div class="line six">
+            <div class="key ctrl left"  id="ControlLeft">
+          Ctrl
+        </div>
+          <div class="key letter"  id="">
+          Fn
+        </div>
+          <div class="key letter"  id="MetaLeft">
+          Home
+        </div>
+          <div class="key letter"  id="AltLeft">
+          Alt
+        </div>
+          <div class="key space"  id="Space">
+            Space
+          </div>
+          <div class="key letter"  id="AltRight">
+          Alt Gr
+        </div>
+          <div class="key ctrl right"  id="ControlRight">
+          Ctrl
+        </div>
+        <div class="key letter page"  id="PageUp">
+        Page up
+      </div>
+        <div class="key letter"  id="ArrowUp">
+        up
+      </div>
+        <div class="key letter page"  id="PageDown">
+        Page down
+      </div>
+    </div>
+
+      <div class="line seven">
+        <div class="key arrow R"  id="ArrowRight">
+        right
+      </div>
+        <div class="key arrow"  id="ArrowDown">
+        down
+      </div>
+        <div class="key arrow L"  id="ArrowLeft">
+        left
+      </div>
+      </div>
+
+
+
+      <script>
+
+      document.addEventListener('keydown', input);
+      function  input(event){
+        var button = event.code;
+
+        if(button == "Enter")
+        {
+          document.getElementById(button).style.background = "#5d636b";
+          document.getElementById(button).style.borderColor = "#3c4249";
+          document.getElementById(button).style.boxShadow = "10px 10px 10px #ff1e1e";
+          setTimeout(unclick, 90);
+          document.addEventListener('keyup');
+            function unclick(){
+              document.getElementById(button).style.background = "#484d54";
+              document.getElementById(button).style.borderColor = "#282c31";
+              document.getElementById(button).style.boxShadow = "9px 9px 9px #740000";
+            }
+          return;
+        }
+        else {
+
+        document.getElementById(button).style.background = "#5d636b";
+        document.getElementById(button).style.borderColor = "#3c4249";
+        document.getElementById(button).style.boxShadow = "10px 10px 10px #ff1e1e";
+        document.getElementById(button).style.position = "relative"
+        document.getElementById(button).style.left = "3px";
+        document.getElementById(button).style.top =  "3px";
+
+      setTimeout(unclick, 90);
+      document.addEventListener('keyup');
+      function unclick(){
+        document.getElementById(button).style.background = "#484d54";
+        document.getElementById(button).style.borderColor = "#282c31";
+        document.getElementById(button).style.boxShadow = "9px 9px 9px #740000";
+        document.getElementById(button).style.position = "none"
+        document.getElementById(button).style.left = "0px";
+        document.getElementById(button).style.top =  "0px";
+      }
+      }
+    }
+
+      </script>
+
+
+
+
+
+  </body>
+
+</html>
